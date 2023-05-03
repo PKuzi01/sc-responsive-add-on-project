@@ -86,7 +86,13 @@ section {
     max-width: 1400px;
     margin: 0 auto;
     padding: 100px;
-  }
+}
+
+footer {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 100px;
+}
 
 .button {
     display: inline-block;
