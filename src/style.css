@@ -271,6 +271,7 @@ footer {
 .footer a {
     color: var(--header-footer-button-color);
 }
+
 @media (max-width: 960px) {
     
 }
