@@ -141,6 +141,28 @@ section {
 
 }
 
+.grid-3-column-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/footer-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: var(--heading-footer-font);
+    line-height: 1.35;
+    color: var(--header-footer-button-color);
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer a {
+    color: var(--header-footer-button-color);
+}
 @media (max-width: 960px) {
     
 }
