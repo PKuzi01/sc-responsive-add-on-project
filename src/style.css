@@ -1,3 +1,30 @@
+:root {
+    --header-footer-text-color: #d6eef0;
+    --header-footer-button-color: #eaaabc;
+    --bio-primary-color: #171616;
+    --bio-secondary-color: #4e4d4b;
+    --bio-tertiary-color: #d3d1d0;
+    --bio-color-pop: #e5a4b8;
+    --fave-songs-primary-color: #141313;
+    --fave-songs-secondary-color: #353d18;
+    --fave-songs-tertiary-color: #bd231a;
+    --fave-songs-color-pop: #f2871d;
+    --alfits-primary-color: #f0e8d3;
+    --alfits-secondary-color: #afe0b5;
+    --alfits-tertiary-color: #92d0ce;
+    --alfits-color-pop-1: #ebb8c6;
+    --alfits-color-pop-2: #dcba59;
+    --alfits-color-pop-3: #45291a;
+    --heading-footer-font: 'Inconsolata', monospace;
+    --bio-heading-font: 'dynamo';
+    --bio-text-font: 'jackinput-bold';
+    --fave-songs-font: 'Secular One', sans-serif;
+    --alfits-heading-font: 'futura-extra-bold';
+    --alfits-text-font: 'jackinput-regular';
+
+
+}
+
 @font-face {
     font-family: 'dynamo';
     src: url('./fonts/tff/dynamo.ttf') format('truetype');
@@ -33,13 +60,37 @@
     src: url('./fonts/woff2/jackinput-bold.woff2') format('woff2');
 }
 
+body {
+    background: linear-gradient(235deg, rgb(242, 135, 29) 0%, rgb(220, 186, 89) 100%);
+}
+
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/header-bg-2.jpg");
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            text-align: center;
-            padding: 60px 0;
-            margin: 0 auto;
-            max-width: 1400px; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/header-bg-7.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 60px 0;
+    margin: 0 auto;
+    max-width: 1400px; 
+    font-family: var(--heading-footer-font);
+    color: var(--header-footer-text-color);
+}
+
+.button {
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 15px;
+    border: none; 
+    text-decoration: none;
+    background-color: var(--header-footer-button-color);
+    color: var(--header-footer-text-color)
+}
+
+.button:hover {
+    background-color: var(--header-footer-text-color);
+    color: var(--header-footer-button-color)
+}
+
+@media (max-width: 960px) {
 }
