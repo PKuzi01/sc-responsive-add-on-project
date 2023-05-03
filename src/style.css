@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'dynamo';
+    src: url('./fonts/tff/dynamo.ttf') format('truetype');
+    src: url('./fonts/woff/dynamo.woff') format('woff');
+    src: url('./fonts/woff2/dynamo.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'free-fat-font';
+    src: url('./fonts1/free-fat-font.ttf') format('truetype');
+    src: url('./fonts/woff/free-fat-font.woff') format('woff');
+    src: url('./fonts/woff2/free-fat-font.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'futura-extra-bold';
+    src: url('./fonts1/futura-extra-bold.ttf') format('truetype');
+    src: url('./fonts/woff/futura-extra-bold.woff') format('woff');
+    src: url('./fonts/woff2/futura-extra-bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'jackinput-regular';
+    src: url('./fonts1/jackinput-regular.ttf') format('truetype');
+    src: url('./fonts/woff/jackinput-regular.woff') format('woff');
+    src: url('./fonts/woff2/jackinput-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'jackinput-bold';
+    src: url('./fonts/tff/jackinput-bold.ttf') format('truetype');
+    src: url('./fonts/woff/jackinput-bold.woff') format('woff');
+    src: url('./fonts/woff2/jackinput-bold.woff2') format('woff2');
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/header-bg-2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding: 60px 0;
+            margin: 0 auto;
+            max-width: 1400px; 
+}
