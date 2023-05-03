@@ -92,7 +92,7 @@ section {
 footer {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 100px;
+    padding: 0;
 }
 
 .button {
@@ -141,13 +141,13 @@ footer {
     font-family: var(--bio-text-font);
     letter-spacing: 4px;
     color: var(--bio-secondary-color);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .igor h2 {
     font-family: var(--bio-heading-font);
     color: var(--bio-primary-color);
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .igor p {
@@ -170,11 +170,13 @@ footer {
 .sffb h3 {
     color: var(--fave-songs-tertiary-color);
     opacity: 0.7;
+    font-size: 20px;
 }
 
 .sffb h2 {
     color: var(--fave-songs-color-pop);
-    margin-top: 50px
+    font-size: 50px;
+    margin-top: 50px;
 }
 
 .spotify-embed h2 {
@@ -227,7 +229,29 @@ footer {
     color: var(--fave-songs-tertiary-color);
 }
 
+.cmiygl {
+    background-color: var(--alfits-tertiary-color);
+    letter-spacing: 3px;
+}
 
+.cmiygl h3 {
+    font-family: var(--alfits-text-font);
+    font-size: 20px;
+    margin: 0;
+}
+
+.cmiygl h2 {
+    font-family: var(--alfits-heading-font);
+    font-size: 50px;
+    margin: 20px auto;
+}
+
+.gallery-img {
+    width: 300px;
+    padding: 30px 30px;
+    border: 10px solid var(--alfits-color-pop-3);
+    margin: 20px 20px;
+}
 
 .footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/footer-1.jpg");
