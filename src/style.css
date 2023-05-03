@@ -9,6 +9,7 @@
     --fave-songs-secondary-color: #353d18;
     --fave-songs-tertiary-color: #bd231a;
     --fave-songs-color-pop: #f2871d;
+    --fave-songs-card: #6e802c;
     --alfits-primary-color: #f0e8d3;
     --alfits-secondary-color: #afe0b5;
     --alfits-tertiary-color: #92d0ce;
@@ -112,10 +113,19 @@ footer {
 .grid {
     display: grid;
     grid-gap: 50px;
+    max-width: 1400px
 }
 
 .grid-2-columns {
     grid-template-columns: 1fr 2fr;
+}
+
+.grid-3-columns-narrow {
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .img {
@@ -124,7 +134,7 @@ footer {
 }
 
 .igor {
-    background-color: var(--bio-color-pop)
+    background-color: var(--bio-color-pop);
 }
 
 .igor h3 {
@@ -147,9 +157,77 @@ footer {
 
 }
 
-.grid-3-column-narrow {
-    grid-template-columns: 1fr 2fr 2fr;
+.sffb {
+    background-color: var(--fave-songs-secondary-color);
 }
+
+.sffb h3, h2 {
+    font-family: var(--fave-songs-font);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.sffb h3 {
+    color: var(--fave-songs-tertiary-color);
+    opacity: 0.7;
+}
+
+.sffb h2 {
+    color: var(--fave-songs-color-pop);
+    margin-top: 50px
+}
+
+.spotify-embed h2 {
+    margin-top: 0;;
+}
+
+.card {
+    background-color: var(--fave-songs-card);
+    border-radius: 8px;
+    padding: 20px 20px
+}
+
+.card-body {
+    font-family: var(--fave-songs-font);
+}
+
+.card-body h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.card-body h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.card-body p {
+   color: var(--fave-songs-primary-color);
+   opacity: 0.8;
+   margin-top: 0;
+}
+
+.card-footer {
+    margin: auto 70px;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 15px;
+    border: none; 
+    text-decoration: none;
+    font-family: var(--fave-songs-font);
+    background-color: var(--fave-songs-tertiary-color);
+    color: var(--fave-songs-color-pop);
+}
+
+.card-button:hover {
+    background-color: var(--fave-songs-color-pop);
+    color: var(--fave-songs-tertiary-color);
+}
+
+
 
 .footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/footer-1.jpg");
