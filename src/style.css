@@ -277,8 +277,23 @@ footer {
     padding: 0;
 }
 
-.footer a {
+.footer-link {
     color: var(--header-footer-button-color);
+}
+
+.footer-button a{
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 15px;
+    border: none; 
+    text-decoration: none;
+    background-color: var(--header-footer-button-color);
+    color: var(--header-footer-text-color)
+}
+
+.footer-button a:hover {
+    background-color: var(--header-footer-text-color);
+    color: var(--header-footer-button-color)
 }
 
 @media (max-width: 960px) {
