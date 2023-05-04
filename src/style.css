@@ -223,7 +223,7 @@ footer {
 
 .card-button {
     display: inline-block;
-    padding: 20px 20px;
+    padding: 20px;
     border-radius: 15px;
     border: none; 
     text-decoration: none;
@@ -302,5 +302,31 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    
+    .igor h2 {
+        font-size: 30px;
+    }
+
+    .bio p {
+        margin: 10px;
+    }
+
+    .embed-heder h2 {
+        font-size: 30px;
+    }
+
+    .sffb h2 {
+        font-size: 30px;
+    }
+
+    .card-footer {
+        margin: 0 auto;
+    }
+
+    .card-button {
+        padding: 12px;
+    }
+
+    .cmiygl h2 {
+        font-size: 30px;
+    }
 }
