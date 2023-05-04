@@ -280,6 +280,9 @@ footer {
 }
 
 @media (max-width: 960px) {
+    section {
+        padding: 10px
+    }
     .grid-2-columns {
         grid-template-columns: 1fr;
     }
@@ -290,5 +293,13 @@ footer {
 
     .grid-3-columns-narrow {
         grid-template-columns: 1fr;
+    }
+
+    .gallery-img {
+        padding: 10px;
+    }
+
+    .grid {
+        grid-gap: 20px
     }
 }
