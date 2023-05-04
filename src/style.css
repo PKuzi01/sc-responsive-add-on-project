@@ -62,7 +62,7 @@
 }
 
 body {
-    background: linear-gradient(235deg, rgb(242, 135, 29) 0%, rgb(220, 186, 89) 100%);
+    background: linear-gradient(180deg, rgb(242, 135, 29) 0%, rgb(220, 186, 89) 100%);
 }
 
 header {
@@ -95,6 +95,11 @@ footer {
     padding: 0;
 }
 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .button {
     display: inline-block;
     padding: 20px 20px;
@@ -113,7 +118,7 @@ footer {
 .grid {
     display: grid;
     grid-gap: 50px;
-    max-width: 1400px
+    max-width: 1400px;
 }
 
 .grid-2-columns {
@@ -142,12 +147,14 @@ footer {
     letter-spacing: 4px;
     color: var(--bio-secondary-color);
     font-size: 20px;
+    margin-top: 0;
 }
 
 .igor h2 {
     font-family: var(--bio-heading-font);
     color: var(--bio-primary-color);
     font-size: 50px;
+    margin: 0;
 }
 
 .igor p {
@@ -180,13 +187,14 @@ footer {
 }
 
 .spotify-embed h2 {
-    margin-top: 0;;
+    margin-top: 0;
 }
 
 .card {
     background-color: var(--fave-songs-card);
     border-radius: 8px;
-    padding: 20px 20px
+    padding: 20px 20px;
+    max-width: 1400px;
 }
 
 .card-body {
@@ -247,7 +255,6 @@ footer {
 }
 
 .gallery-img {
-    width: 300px;
     padding: 30px 30px;
     border: 10px solid var(--alfits-color-pop-3);
     margin: 20px 20px;
@@ -273,5 +280,15 @@ footer {
 }
 
 @media (max-width: 960px) {
-    
+    .grid-2-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-3-columns {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-3-columns-narrow {
+        grid-template-columns: 1fr;
+    }
 }
